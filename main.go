@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(moduleA.Randomize("hello"))
+	fmt.Println(moduleA.Greet("hello"))
 }
