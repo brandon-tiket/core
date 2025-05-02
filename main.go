@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	moduleA "github.com/brandon-tiket/module-a"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Println(moduleA.Randomize("hello"))
 }
